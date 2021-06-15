@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   Flex,
   Text,
   Box
 } from "@chakra-ui/react";
 
-const HeaderInfo = ({name, price}) => {  
+const HeaderInfo = ({nama, harga}) => {  
   return (
     <Flex justifyContent="space-between">
       <Box>
-        <Text>{name}</Text>
+        <Text>{nama}</Text>
       </Box>
       <Box>
-        <Text>Rp{price}</Text>
+        <Text>Rp{harga}</Text>
       </Box>
     </Flex>
   );

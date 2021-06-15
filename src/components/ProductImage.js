@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   Box,
   Image,
 } from "@chakra-ui/react";
 
-const ProductImage = ({image}) => {  
+const ProductImage = ({gambar}) => {  
   return (
     <Box display="flex" justifyContent="center">
-      <Image src={image} />
+      <Image src={gambar} />
     </Box>
   );
 }

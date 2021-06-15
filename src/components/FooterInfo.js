@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   Flex,
   Text,
@@ -7,20 +7,20 @@ import {
   ListItem
 } from "@chakra-ui/react";
 
-const FooterInfo = ({color, material, dimension}) => {  
+const FooterInfo = ({warna, bahan, dimensi}) => {  
   return (
     <Flex justifyContent="space-between">
       <Box>
-        <Text>Color: {color}</Text>
+        <Text>Color: {warna}</Text>
       </Box>
       <Box>
-        <Text>Material: <br /> {material}</Text>
+        <Text>Material: <br /> {bahan}</Text>
       </Box>
       <Box>
       <UnorderedList>
-        <ListItem>Panjang: {dimension}</ListItem>
-        <ListItem>Lebar: {dimension}</ListItem>
-        <ListItem>Tinggi: {dimension}</ListItem>
+        <ListItem>Panjang: {dimensi}</ListItem>
+        <ListItem>Lebar: {dimensi}</ListItem>
+        <ListItem>Tinggi: {dimensi}</ListItem>
         </UnorderedList>
       </Box>
     </Flex>
