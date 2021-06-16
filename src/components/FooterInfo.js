@@ -1,29 +1,33 @@
 import React from 'react';
 import {
-  Flex,
+  Grid,
   Text,
   Box,
   UnorderedList,
-  ListItem
+  ListItem,
+  Heading
 } from "@chakra-ui/react";
 
-const FooterInfo = ({warna, bahan, dimensi}) => {  
+const FooterInfo = ({warna, bahan, panjang, lebar, tinggi}) => {  
   return (
-    <Flex justifyContent="space-between">
+    <Grid templateColumns="repeat(3, 1fr)" gap={6}>
       <Box>
-        <Text>Color: {warna}</Text>
+        <Heading size="xs">Color</Heading>
+        <Text casing="capitalize">{warna}</Text>
       </Box>
       <Box>
-        <Text>Material: <br /> {bahan}</Text>
+        <Heading size="xs">Material</Heading>
+        <Text casing="capitalize">{bahan}</Text>
       </Box>
       <Box>
-      <UnorderedList>
-        <ListItem>Panjang: {dimensi}</ListItem>
-        <ListItem>Lebar: {dimensi}</ListItem>
-        <ListItem>Tinggi: {dimensi}</ListItem>
+        <Heading size="xs">Dimension</Heading>
+        <UnorderedList>
+          <ListItem>Panjang: {panjang} cm</ListItem>
+          <ListItem>Lebar: {lebar} cm</ListItem>
+          <ListItem>Tinggi: {tinggi} cm</ListItem>
         </UnorderedList>
       </Box>
-    </Flex>
+    </Grid>
   );
 }
 

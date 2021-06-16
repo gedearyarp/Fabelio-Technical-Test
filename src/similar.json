@@ -1,8 +1,10 @@
 {
     "produkutama": {
-        "name" : "Sofa 2 dudukan Vienna",
+        "name" : "Sofa 2 Dudukan Vienna",
         "price" : "3899000",
-        "dimension" : "162 x 95 x 86",
+        "length" : "162",
+        "width" : "95",
+        "height" : "86",
         "colours" : "custard vienna, graphite vienna, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/w/i/wina_2_seater_sofa__custard__1_1.jpg"
@@ -11,7 +13,9 @@
         "code" : 0,
         "name" : "Sofa Tempat Tidur Mochi",
         "price" : "3500000",
-        "dimension" : "160 x 95 x 90",
+        "length" : "160",
+        "width" : "95",
+        "height" : "90",
         "colours" : "custard vienna, graphite vienna, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/r/2/r2710.jpg"
@@ -20,7 +24,9 @@
         "code" : 1,
         "name" : "Sofa 2 dudukan Zelado",
         "price" : "4299000",
-        "dimension" : "162 x 95 x 86",
+        "length" : "162",
+        "width" : "95",
+        "height" : "86",
         "colours" : "graphite vienna, teal vienna",
         "material" : "hollow steel",
         "image" : "https://fabelio.com/media/catalog/product/z/e/zelado-2-seater-sofa---custard-01.jpg"
@@ -29,7 +35,9 @@
         "code" : 2,
         "name" : "Sofa 2 dudukan Toril",
         "price" : "2899000",
-        "dimension" : "160 x 95 x 90",
+        "length" : "160",
+        "width" : "95",
+        "height" : "90",
         "colours" : "blue jay, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/t/o/Toril_2_Seater_Sofa_(Paradise)_1.jpg"
@@ -38,7 +46,9 @@
         "code" : 3,
         "name" : "Sofa Tempat Tidur Deacon",
         "price" : "3899000",
-        "dimension" : "150 x 90 x 80",
+        "length" : "150",
+        "width" : "90",
+        "height" : "80",
         "colours" : "custard vienna, graphite vienna",
         "material" : "hollow steel",
         "image" : "https://fabelio.com/media/catalog/product/d/e/deacon_white_1_1_1.jpg"
@@ -47,7 +57,9 @@
         "code" : 4,
         "name" : "Sofa Java",
         "price" : "3869100",
-        "dimension" : "142 x 90 x 80",
+        "length" : "142",
+        "width" : "90",
+        "height" : "80",
         "colours" : "custard vienna, graphite vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/t/a/Taby_Java_2_Seater_Living_Set_(Sugar)_1.jpg"
@@ -56,7 +68,9 @@
         "code" : 5,
         "name" : "Sofa 1 dudukan Hughes",
         "price" : "2500000",
-        "dimension" : "90 x 82 x 58",
+        "length" : "90",
+        "width" : "82",
+        "height" : "58",
         "colours" : "custard vienna, graphite vienna, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/h/u/Hughes_Armchair_(Wood)_0.jpg"
@@ -65,7 +79,9 @@
         "code" : 6,
         "name" : "Sofa 1 dudukan Taby",
         "price" : "2399000",
-        "dimension" : "90 x 82 x 58",
+        "length" : "90",
+        "width" : "82",
+        "height" : "58",
         "colours" : "brown vienna, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/t/a/Taby_Armchair_(Jezebel)_1.jpg"
@@ -74,7 +90,9 @@
         "code" : 7,
         "name" : "Sofa 1 dudukan Zoey",
         "price" : "2399000",
-        "dimension" : "90 x 82 x 58",
+        "length" : "90",
+        "width" : "82",
+        "height" : "58",
         "colours" : "brown vienna, ruby vienna",
         "material" : "hollow steel",
         "image" : "https://cdn-m2.fabelio.com/catalog/product/s/o/sofa_minimalis_bran_2_dudukan_elodie_green.jpg?auto=format&w=2618"
@@ -83,7 +101,9 @@
         "code" : 8,
         "name" : "Sofa 1 dudukan Vienna",
         "price" : "2199000",
-        "dimension" : "90 x 82 x 58",
+        "length" : "90",
+        "width" : "82",
+        "height" : "58",
         "colours" : "custard vienna, graphite vienna, ruby vienna",
         "material" : "solid wood",
         "image" : "https://fabelio.com/media/catalog/product/w/i/wina_armchair__graphite__1_1.jpg"
